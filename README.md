@@ -9,3 +9,4 @@
 * 03) < Beautiful Arrangement >
 * 04) Merge Two Sorted Lists 
 * 05) Remove Duplicates from Sorted List II 
+* 06) Kth Missing Positive Number 
