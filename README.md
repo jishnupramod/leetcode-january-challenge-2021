@@ -10,4 +10,5 @@
 * 04) Merge Two Sorted Lists 
 * 05) Remove Duplicates from Sorted List II 
 * 06) Kth Missing Positive Number 
-* 07) Longest Substring Without Repeating Characters 
+* 07) Longest Substring Without Repeating Characters
+* 08) Check If Two String Arrays are Equivalent 
