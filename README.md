@@ -12,3 +12,6 @@
 * 06) Kth Missing Positive Number 
 * 07) Longest Substring Without Repeating Characters
 * 08) Check If Two String Arrays are Equivalent 
+* 09) < Word Ladder >
+* 10) < Create Sorted Array through Instructions >
+* 11) Merge Sorted Array 
