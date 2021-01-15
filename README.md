@@ -16,4 +16,5 @@
 * 10) < Create Sorted Array through Instructions >
 * 11) Merge Sorted Array
 * 12) Add Two Numbers
-* 13) Boats to Save People 
+* 13) Boats to Save People
+* 14) Minimum Operations to Reduce X to Zero 
