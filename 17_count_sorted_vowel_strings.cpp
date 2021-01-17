@@ -56,3 +56,19 @@ public:
     }
 };
 
+
+
+
+// More concise solution
+class Solution {
+public:
+    int countVowelStrings(int n) {
+        vector<int> states(5, 1);
+        for (int i=0; i<n; ++i) {
+            for (int j=1; j<5; ++j)
+                states[j] += states[j-1];
+        }
+        return states[4];
+    }
+};
+
