@@ -20,4 +20,5 @@
 * 14) Minimum Operations to Reduce X to Zero
 * 15) Get Maximum in Generated Array
 * 16) Kth Largest Element in an Array
-* 17) Count Sorted Vowel Strings 
+* 17) Count Sorted Vowel Strings
+* 18) Max Number of K-Sum Pairs 
