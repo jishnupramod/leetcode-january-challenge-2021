@@ -21,4 +21,6 @@
 * 15) Get Maximum in Generated Array
 * 16) Kth Largest Element in an Array
 * 17) Count Sorted Vowel Strings
-* 18) Max Number of K-Sum Pairs 
+* 18) Max Number of K-Sum Pairs
+* 19) Longest Palindromic Substring 
+* 20) Valid Parentheses 
