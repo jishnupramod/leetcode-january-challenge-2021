@@ -23,4 +23,6 @@
 * 17) Count Sorted Vowel Strings
 * 18) Max Number of K-Sum Pairs
 * 19) Longest Palindromic Substring 
-* 20) Valid Parentheses 
+* 20) Valid Parentheses
+* 21) Find the Most Competitive Sequence 
+* 22) Determine if Two Strings Are Close 
