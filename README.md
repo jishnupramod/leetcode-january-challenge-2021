@@ -26,4 +26,5 @@
 * 20) Valid Parentheses
 * 21) < Find the Most Competitive Sequence > 
 * 22) Determine if Two Strings Are Close
-* 23) Sort the Matrix Diagonally  
+* 23) Sort the Matrix Diagonally 
+* 24) Merge k Sorted Lists 
