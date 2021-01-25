@@ -27,4 +27,5 @@
 * 21) < Find the Most Competitive Sequence > 
 * 22) Determine if Two Strings Are Close
 * 23) Sort the Matrix Diagonally 
-* 24) Merge k Sorted Lists 
+* 24) Merge k Sorted Lists
+* 25) Check If All 1's Are at Least Length K Places Away 
