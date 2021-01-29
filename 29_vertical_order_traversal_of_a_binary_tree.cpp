@@ -87,3 +87,44 @@ public:
     }
 };
 
+
+
+
+// Concise implementation with custom sort
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class Solution {
+private:
+    map<int, vector<pair<int, int>>> mp;
+    void traverse(TreeNode* root, int x, int y) {
+        if (!root) return;
+        mp[x].push_back(make_pair(y, root->val));
+        traverse(root->left, x-1, y+1);
+        traverse(root->right, x+1, y+1);
+    }
+public:
+    vector<vector<int>> verticalTraversal(TreeNode* root) {
+        traverse(root, 0, 0);
+        vector<int> v;
+        vector<vector<int>> ans;
+        for (auto it=mp.begin(); it!=mp.end(); ++it) {
+            sort(it->second.begin(), it->second.end(), [&](pair<int, int> p1, pair<int, int> p2) {
+                return p1.first < p2.first or (p1.first == p2.first and p1.second < p2.second);
+            });
+            for (pair<int, int> p : it->second)
+                v.push_back(p.second);
+            ans.push_back(move(v));
+        }
+        return ans;
+    }
+};
+
