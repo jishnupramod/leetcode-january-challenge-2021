@@ -31,4 +31,5 @@
 * 25) Check If All 1's Are at Least Length K Places Away
 * 26) Path With Minimum Effort
 * 27) Concatenation of Consecutive Binary Numbers
-* 28) Smallest String With A Given Numeric Value 
+* 28) Smallest String With A Given Numeric Value
+* 29) Vertical Order Traversal of a Binary Tree 
