@@ -32,4 +32,6 @@
 * 26) Path With Minimum Effort
 * 27) Concatenation of Consecutive Binary Numbers
 * 28) Smallest String With A Given Numeric Value
-* 29) Vertical Order Traversal of a Binary Tree 
+* 29) Vertical Order Traversal of a Binary Tree
+* 30) < Minimize Deviation in Array >
+* 31) Nex Permutation 
